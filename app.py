@@ -5,7 +5,8 @@ from utils import preprocessor
 
 def run():
     # Load the pre-trained model
-    model = joblib.load(open('/Users/diego.lucie/Downloads/Institute_of_Data/Labs/Module_10/IOD_Lab-10_2/model.joblib', 'rb'))
+    model = joblib.load('model.joblib')
+
 
     st.title("Sentiment Analysis")
     st.text("Basic app to detect the sentiment of text.")
